@@ -161,7 +161,4 @@ Be aware that you may find some elements which appear in Firebug but
 not in the original HTML, such as the typical case of ``<tbody>``
 elements.
 
-or tags which Therefer   in page HTML
-sources may on Firebug inspects the live DOM
-
 .. _has been shut down by Google: https://searchenginewatch.com/sew/news/2096661/google-directory-shut
