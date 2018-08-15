@@ -151,9 +151,9 @@ Finally, we can write our ``parse_category()`` method::
 
         for link in links:
             item = DirectoryItem()
-            item['name'] = link.xpath('a/text()').extract()
-            item['url'] = link.xpath('a/@href').extract()
-            item['description'] = link.xpath('font[2]/text()').extract()
+            item['name'] = link.xpath('a/text()').get()
+            item['url'] = link.xpath('a/@href').get()
+            item['description'] = link.xpath('font[2]/text()').get()
             yield item
 
 
